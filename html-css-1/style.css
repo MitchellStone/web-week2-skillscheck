@@ -1,0 +1,11 @@
+header {
+    box-sizing: border-box;
+    height: 5vh;
+    width: 100vw;
+    background-color: grey;
+    display: flex;
+}
+ul {
+    display: inline-flexbox
+
+}
