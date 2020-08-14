@@ -2,25 +2,25 @@
 
 // Create a variable called 'myName' with a value that is your name. 
 
-let myName = "Mitchell"
+let myName = "Mitchell";
 
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called 'faveNum' with a value that is your favorite number. 
 
-let faveNum = 19
+let faveNum = 19;
 
 //////////////////PROBLEM 3////////////////////
 
 // Create a variable called 'lovesCode' and assign it a value of true.
 
-let LovesCode = true
+let LovesCode = true;
 
 //////////////////PROBLEM 4////////////////////
 
 // Create a function called 'sum' that takes in two parameters, 'num1' and 'num2'. The function should return the sum of the two parameters.
 
-//Code here
+function sum(num1, num2);
 
 //////////////////PROBLEM 5////////////////////
 
