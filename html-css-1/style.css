@@ -4,10 +4,21 @@ header {
     width: 100vw;
     background-color: grey;
     display: flex;
+    
 }
-ul {
-    display: inline-flex;
+.logo{
+position: fixed;
+position: left;
+}
+.navbar{
+    position: relative;
+  left: 180px;
+  justify-content: space-between;
+}
+.list {
+    display: flex;
     justify-content: space-between;
+    
 }
 
 .main-content-1{
