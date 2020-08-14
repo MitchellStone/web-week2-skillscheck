@@ -26,7 +26,13 @@ function sum(num1, num2);
 
 // Create a function called 'lovesCodeChecker' that takes in a single parameter called 'x'. Check to see if 'x' is equal to true. If it is, return a true boolean. If 'x' does not equal true, return a false boolean.  
 
-//Code here
+function LovesCodeChecker(x){
+	if(x = "true") {
+	return true;
+   }else{
+	   return false;
+   }
+}
 
 //////////////////PROBLEM 6////////////////////
 
