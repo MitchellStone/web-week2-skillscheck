@@ -2,19 +2,19 @@
 
 // Create a variable called 'myName' with a value that is your name. 
 
-// Code here
+let myName = "Mitchell"
 
 //////////////////PROBLEM 2////////////////////
 
 // Create a variable called 'faveNum' with a value that is your favorite number. 
 
-//Code here
+let faveNum = 19
 
 //////////////////PROBLEM 3////////////////////
 
 // Create a variable called 'lovesCode' and assign it a value of true.
 
-//Code here
+let LovesCode = true
 
 //////////////////PROBLEM 4////////////////////
 
