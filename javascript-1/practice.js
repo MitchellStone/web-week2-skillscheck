@@ -94,8 +94,12 @@ return this.greeter
 
 // Create a function called 'arrayReverser' that takes in one parameter, 'arr'. Inside of arrayReverser, create an empty array called 'reversed'. Using a for loop, loop over the passed in array IN REVERSE (this means your counter should decrement), and then add each item to the 'reversed' array variable you created. Finally, return the 'reversed' array variable. 
 
-//Code Here
-
+let arrayReverser = arr => {
+	let reversed = []
+	for(let i = arr.length -1; i >= 0; i--)
+	reversed.push(arr[i])
+}
+return reversed
 //////////////////PROBLEM 14 - 18 Setup////////////////////
 
 // Below is an array, myNumbers. You will be using .map, .filter, .reduce and .forEach to manipulate the array in the following problems.
@@ -145,10 +149,14 @@ const people = [
 	{ name: 'Josh', friend: true, awesomeLevel: 7 }
 ]
 
-// Code Here
+let enemies = people.filter(function(element){
+	return !element.friend
+})
 
 //////////////////PROBLEM 20////////////////////
 
 // Using the people array above, get a total of the awesomeLevel from all the people, and store that value in a variable named 'totallyAwesome'. Use .reduce().
 
-// Code Here
+let totallyAwesome = people.reduce((acc, curr) => {
+return acc + curr.awesomeLevel
+}, 0 )
