@@ -20,7 +20,7 @@ let LovesCode = true;
 
 // Create a function called 'sum' that takes in two parameters, 'num1' and 'num2'. The function should return the sum of the two parameters.
 
-function sum(num1, num2);
+function sum(num1, num2)
 
 //////////////////PROBLEM 5////////////////////
 
@@ -60,20 +60,20 @@ iLove(Mitchell, cookies)
 // Create a copy of the faveColors array called 'colorCopy' using slice.
 const faveColors = ['red', 'green', 'black']
 
-//Code Here
+let colorCopy = faveColors.slice
 
 //////////////////PROBLEM 9////////////////////
 
 // Add a fourth color to the end of the 'colorCopy' array using push.
 
-//Code Here
+colorCopy.push("Pink")
 
 //////////////////PROBLEM 10////////////////////
 
 // Create a new array called 'middleNums' from the numbers array that will capture only the middle numbers (2, 3, 4).
 const numbers = [1, 2, 3, 4, 5]
 
-//Code Here
+let middleNums = numbers.splice(1, 3)
 
 //////////////////PROBLEM 11////////////////////
 
