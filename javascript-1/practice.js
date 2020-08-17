@@ -79,7 +79,10 @@ let middleNums = numbers.splice(1, 3)
 
 // Create an object called 'me' that has the following keys: firstName, state, age, and greeter. The value of the firstName key should be your name as a string. The value of the property state should be your current state or providence of residence as a string. The value of age should be your age as a number. greeter should be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values. 
 
-//Code Here
+let me = {firstName: "Mitchell", state: "Utah", age: 23, greeter: function(){
+return this.greeter
+}
+}
 
 //////////////////PROBLEM 12////////////////////
 
