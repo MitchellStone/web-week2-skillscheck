@@ -60,7 +60,7 @@ iLove(Mitchell, cookies)
 // Create a copy of the faveColors array called 'colorCopy' using slice.
 const faveColors = ['red', 'green', 'black']
 
-let colorCopy = faveColors.slice
+let colorCopy = faveColors.slice(0)
 
 //////////////////PROBLEM 9////////////////////
 
